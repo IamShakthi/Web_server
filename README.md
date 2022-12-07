@@ -27,6 +27,7 @@ Serving the HTML pages.
 Testing the webserver
 
 ## PROGRAM:
+
 ```
 from http.server import HTTPServer, BaseHTTPRequestHandler
 content = """
@@ -54,6 +55,9 @@ httpd.server_forever()
 ```
  
 ## OUTPUT:
-
+### server side output
+![server side output](./images/server%20output.png)
+### client side output
+![client side output](./images/clientoutput.png)
 ## RESULT:
-The program is executed succesfully
+The program is executed successfully.Thus the web server is developed to display about top five programming languages.
